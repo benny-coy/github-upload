@@ -1,8 +1,15 @@
 # github-upload
-![Screenshot (7)](https://user-images.githubusercontent.com/73894375/107948821-a50f0500-6f94-11eb-88c9-e6a3e91e1a75.png)
-![SURVEY FORM](https://user-images.githubusercontent.com/73894375/107951019-ea810180-6f97-11eb-9131-39d4cf942c40.png)
-![landingpage](https://user-images.githubusercontent.com/73894375/107952087-96771c80-6f99-11eb-8684-3061d53eee24.png)
-![tributepage](https://user-images.githubusercontent.com/73894375/107952101-9b3bd080-6f99-11eb-8480-d2c76482f41a.png)
+![Dr  Ngozi Okonjo-Iweala](https://user-images.githubusercontent.com/73894375/108332290-e808ec80-71cf-11eb-97c9-5e4336a8bf4f.jpg)
+![Landing page](https://user-images.githubusercontent.com/73894375/108332351-f951f900-71cf-11eb-8806-d527aae6c829.jpg)
+![Survey Form](https://user-images.githubusercontent.com/73894375/108332350-f951f900-71cf-11eb-9e64-403c695d8a7c.jpg)
+![Documentation page](https://user-images.githubusercontent.com/73894375/108332380-02db6100-71d0-11eb-9e79-f6cbfa9c0041.jpg)
+
+
+
+
+
+
+
 
 
 
