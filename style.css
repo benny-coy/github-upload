@@ -72,35 +72,30 @@ em{
   .project-section{
   display:flex;
 }
+
 .container{
   width:100%;
-  min-height:100vh;
+  min-height:100hv;
   height:100%;
   background-color:#191a1d;
   display:flex;
   justify-content:center;
   align-items:center;
   }
-  .items{
-    background-color:rgba(255, 255, 255, 0.5);
-    width:250px;
-    text-align:center;
-  }
+ 
   
-.boxs{
-  width:80%;
-  height:30%;
-  max-width:1000px;
-  position:relative;
-  margin:40px 0;
+.box{
+  width:100%;
+  height:350px;
+  max-height:800px;
+  margin:20px 0;
   padding:20px;
   display:grid;
   border:2px solid #fff;
-  grid-template-column:repeat(autofit,minmax(220px,1fr));
-  grid-gap:20px;
+  grid-template-row:repeat(autofit,minmax(220px,1fr));
+  grid-gap:30px;
   justify-items:center;
   align-items:center;
-}
   .project-heading{
     font-size:20px;
   text-align:center;
@@ -109,13 +104,7 @@ em{
     background:gray;
     
   }
-box{
-  padding:0px;
-  color:#fff;
-  width:100%;
-  height:250px;
-  border:1px solid #fff;
-}
+
   .project-tile{
     width:100%;
     height:200px;
