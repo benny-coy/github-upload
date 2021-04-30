@@ -1,0 +1,216 @@
+                        * {
+                            padding: 0;
+                            margin: 0;
+                            box-sizing: border-box;
+                            text-decoration: none;
+                        }
+                        
+                        body {
+                            background:#dd00ff;
+                            font-family: 'lato', monospace;
+                            letter-spacing: 1px;
+                            line-height: 30px;
+                        }
+                        /*setting my web page device responsive */
+                        
+                        @media all and (max-width: 800px) {
+                            body {
+                                color: rgb(20, 20, 19);
+                            }
+                        }
+                        
+                        .navbar {
+                            position: -webkit-sticky;
+                            height: 80px;
+                            width: 100%;
+                            background: rgb(245, 243, 241);
+                        }
+                        
+                        .nav-list {
+                            float: right;
+                        }
+                        
+                        .nav-items {
+                            display: inline-block;
+                            align-items: space-around;
+                            justify-content: center;
+                            padding: 30px 20px;
+                            /* i use padding to  position  the li. i.e the top&bottom(30px) right&left(20px) while  */
+                        }
+                        
+                        .nav-links {
+                            color: deeppink;
+                            font-size: bold;
+                        }
+                        
+                        @media all and (max-width: 800px) {
+                            .navbar {
+                                width:100%;
+                                padding: 15px 10px;
+                            }
+                        }
+                        
+                        .nav-links:hover {
+                            color: #bb35dd;
+                            transition: 2s;
+                            border: 1px solid royalblue;
+                        }
+                        
+                        marquee {
+                            color: gray;
+                        }
+                        
+                        #welcome-section {
+                            margin-top: 70px;
+                            margin-right: 29%;
+                            margin-left: 29%;
+                            margin-bottom: 100px;
+                        }
+                        /* I am using margrin to center  my welcome-selection which also affect my logo positioning*/
+                        
+                        .logo {
+                            float: right;
+                            width: 200px;
+                            height: 200px;
+                            border: 4px solid deeppink;
+                        }
+                        
+                        h1 {
+                            color: rgb(245, 243, 241);
+                        }
+                        
+                        @media all and (max-width: 800px) {
+                            #welcome-section,
+                            logo {
+                                margin-top: 50;
+                                margin-bottom: 80px;
+                            }
+                            h1 {
+                                color: black;
+                            }
+                        }
+                        
+                        .projects-section {
+                            margin-bottom: 50px;
+                            margin-top: 30px;
+                        }
+                        
+                        .container {
+                            display: flex;
+                            width: 100%;
+                            height: 320px;
+                            flex-direction: row;
+                            position: relative;
+                            background: rgb(245, 243, 241);
+                            z-index: 1;
+                        }
+                        
+                        .box {
+                            width: 220px;
+                            height: 220px;
+                            padding: 30px 20px;
+                        }
+                        
+                        img {
+                            width: 180px;
+                            height: 180px;
+                        }
+                        
+                        .btn {
+                            margin: 0;
+                            font-weight: bold;
+                            display: inline-block;
+                            margin-block-start: 220px;
+                            cursor: pointer;
+                            padding: 0px 10px;
+                            border-radius: 5%;
+                            /* i used the margin-block-start: 220px; to move the btn item to the end of the page*/
+                        }
+                        
+                        .btn:hover {
+                            color: deeppink;
+                            transition: 2s;
+                        }
+                        
+                        @media all and (max-width: 800px) {
+                            .project-section,
+                            .container {
+                                padding: auto;
+                            }
+                            .box {
+                                width: 65%;
+                                height: 65%;
+                            }
+                            .btn {
+                                font-weight: 50px;
+                            }
+                            img {
+                                width: 60%;
+                                height: 60%;
+                            }
+                        }
+                        
+                        .contact-section {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            text-align: center;
+                            margin-top: -40px;
+                        }
+                        
+                        .contact-section-header>h2 {
+                            font-size: 20px;
+                            color: aqua;
+                        }
+                        
+                        @media (max-width:800px) {
+                            .contact-section-header,
+                            h2 {
+                                font-size: 16px;
+                            }
+                        }
+                        
+                        .contact-section-header,
+                        p {
+                            font-style: italic;
+                        }
+                        
+                        .contact-links {
+                            display: flex;
+                            flex-direction: row;
+                            background: rgb(245, 243, 241);
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 20px;
+                            justify-content: center;
+                            width: 100%;
+                        }
+                        
+                        .contact-details {
+                            margin-top: -1px;
+                            display: flex;
+                            flex-direction: row;
+                            background: #ffffff;
+                            justify-content: center;
+                            align-items: center;
+                            border: 3px solid lightpink;
+                            border-radius: 10px;
+                            font-size: 20px;
+                            justify-content: first baseline;
+                            margin-right: 30px;
+                            text-shadow: 2px 2px 1px #1f1f1f;
+                            transition: transform 0.3s ease-out;
+                        }
+                        
+                        @media (max-width:800px) {
+                            .contact-links,
+                            .contact-details {
+                                font-size: 13px;
+                                margin-right: 10px;
+                            }
+                        }
+                        
+                        .contact-details a:hover {
+                            color: rgba(248, 47, 215, 0.877);
+                        }
